@@ -1,0 +1,270 @@
+{
+  "id": 43549293,
+  "score": 100,
+  "text": "",
+  "children": [
+    {
+      "id": 43549790,
+      "score": 52,
+      "text": "when making the Apple II version of Myst I more or less generated graphs like this by hand based on playing through the game (in order to hook up the data structures for the custom 6502-assembly language engine)  I wonder if it would have been easier to automate it like this.",
+      "children": [
+        {
+          "id": 43551335,
+          "score": -1,
+          "text": "if anyone is curious, the data structure used in the Apple II version had the idea of &quot;locations&quot; which just hold 4 of the nodes described here.  Usually this would be for North&#x2F;South&#x2F;East&#x2F;West, plus there would be an additional clickable area that would call a function callback, usually used for puzzles but it could also be used as a hack to take you to an additional location.<p>This setup was more or less enough to implement the whole game, the one problem area was Channelwood where the pathway platforms are pentagons and thus had more than 4 backgrounds.  There were also a few areas where a location could have used an additional clickable area but had to make do without.  Also to fit on 3 disks about half the nodes were left out: generally when walking a straight path every other node was left out for both disk space and also time-consuming-rotoscope reasons.",
+          "children": []
+        },
+        {
+          "id": 43550971,
+          "score": 69,
+          "text": "Is this yours?<p><a href=\"http:&#x2F;&#x2F;www.deater.net&#x2F;weave&#x2F;vmwprod&#x2F;mist&#x2F;\" rel=\"nofollow\">http:&#x2F;&#x2F;www.deater.net&#x2F;weave&#x2F;vmwprod&#x2F;mist&#x2F;</a> It&#x27;s cool",
+          "children": [
+            {
+              "id": 43551281,
+              "score": 27,
+              "text": "yes.  I also made an Atari 2600 version but that one&#x27;s only a subset of the game (though it&#x27;s enough can beat it using the speedrun route)",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 43550115,
+          "score": -69,
+          "text": "I hadn&#x27;t heard of the Apple II version of Myst, so I looked it up...it&#x27;s very cool, and pretty impressive!",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 43550123,
+      "score": 29,
+      "text": "For those, like me, wondering how to play it today. It seems the original studio has released a modernized version available on many platforms (including VR):<p><a href=\"https:&#x2F;&#x2F;cyan.com&#x2F;games&#x2F;myst&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;cyan.com&#x2F;games&#x2F;myst&#x2F;</a><p>I missed out on Myst in its heyday, but have always wanted to check it out after hearing so many great things.<p>Curious if any superfans think it would be better experienced as the original in an emulator or similar.",
+      "children": [
+        {
+          "id": 43550180,
+          "score": 99,
+          "text": "&gt; Curious if any superfans think it would be better experienced as the original in an emulator or similar.<p>(superfan checking in) -- I still believe the definitive release is the original `realMyst (2000)` (Sunsoft). <a href=\"https:&#x2F;&#x2F;archive.guildofarchivists.org&#x2F;wiki&#x2F;RealMyst\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.guildofarchivists.org&#x2F;wiki&#x2F;RealMyst</a> . If you only ever play one version, that&#x27;s the one to play. GOG maintains a beautiful version of this (that works well even on modern Windows), but Cyan de-listed it from GOG a while back, so you can&#x27;t technically buy fresh copies anymore.<p>Don&#x27;t mistake this for &quot;Real Myst: Masterpiece Edition&quot;, which is (sorry Cyan), not very good. They imported the old assets into Unity for the re-release, and then did some random texture&#x2F;asset swaps, the lighting and mood didn&#x27;t survive the import and is all randomly weird -- strongly recommend ignoring this one.<p>The original release is good if you want the original experience - <a href=\"https:&#x2F;&#x2F;www.gog.com&#x2F;en&#x2F;game&#x2F;myst_masterpiece_edition\" rel=\"nofollow\">https:&#x2F;&#x2F;www.gog.com&#x2F;en&#x2F;game&#x2F;myst_masterpiece_edition</a><p>And the new Myst (2021&#x2F;VR, Unreal Engine) release is wonderful and beautiful, but is more of a re-make to modern gaming sensibilities.",
+          "children": [
+            {
+              "id": 43552978,
+              "score": -39,
+              "text": "Myst is one of my favorite games, but I never could get into realMyst. The idea was great at the time, but I thought the visual fidelity was lower (despite being ... &quot;real&quot;), and the click-based movement never played well.<p>I did like Real Myst: Masterpiece Edition a lot (though it ran terribly on my powerful-at-the-time system). But I&#x27;d argue for the OP to play Myst: Masterpiece Edition first. IMO the interface is just as important to Myst as everything else.",
+              "children": []
+            },
+            {
+              "id": 43550840,
+              "score": 88,
+              "text": "&gt; Don&#x27;t mistake this for &quot;Real Myst: Masterpiece Edition&quot;, which is (sorry Cyan), not very good.<p>I know you link it further down, but there are two Masterpiece Editions, one for Myst (1999) and one for realMyst (2014).  The one you link is the MPE of Myst, and <i>technically</i> not the original 1993 game, though as far as I can tell, it&#x27;s just an upgrade of graphics and sound, whilst remaining faithful to the original.<p>I couldn&#x27;t get realMyst to work back when I got it on GOG, so I&#x27;ll admit I haven&#x27;t tried it (nor its Masterpiece Edition), but I did enjoy the 2021 remake, although I noticed that even though it had been over a decade, I sped through that game (I mention this, because I actually visited it <i>after</i> having played the 2024 Riven remake, where the changes to the puzzles did stump me from time to time).  Though, personally, I am more of a Riven fan.",
+              "children": [
+                {
+                  "id": 43550985,
+                  "score": -83,
+                  "text": "Since we&#x27;re getting pretty far down the nerding-out-on-myst rabbit hole: the original version of realMyst, at least for Windows, had some bug that would cause it to immediately crash on any system with a multi-core CPU. At some point someone released a patched EXE that fixed it, I have no idea if gog and&#x2F;or Steam ever released an official patched version.<p>Also, while talking about remakes: Riven got a remake last year, and it&#x27;s <i>fantastic</i>. The sprit of the game is entirely intact, but they made changes to some puzzles that both make the experience fresh (for anyone that played the 90s version of Riven) and much less annoying (for any first time players). Can&#x27;t recommend the Riven remake enough.",
+                  "children": [
+                    {
+                      "id": 43551179,
+                      "score": 8,
+                      "text": "Conceding that it was a technical necessity, the replacement of live actors for in-game CGI rendered characters feels off in the Riven remake to me.  Necessary because now you can walk all the way around them, the game can&#x27;t assume a single viewing angle for videos to play out.  Nor would it be practical to record new actors playing the roles (the old assets must surely be too low-quality to pass in a modern game, even if they go back to the source).<p>Part of Myst and Riven&#x27;s charm in the 1990s was the immersion it offered, the world felt real, and the actors playing out characters added to it.  The original point-and-click format feels dated today, but at the time, it was convincing enough to be believable.",
+                      "children": [
+                        {
+                          "id": 43551951,
+                          "score": 76,
+                          "text": "I feel like they could’ve innovated using novel technique, like 3D gaussian splatting (and upscaling the video or better yet record new videos). The vast majority of the time, you’re still pretty much locked unable to move when those CGI character show up, except for turning the camera around (from what I remembered). It could’ve been faked and still work and be much better as I felt it was the only downgrade to an otherwise fantastic remake that I really enjoyed.",
+                          "children": [
+                            {
+                              "id": 43552729,
+                              "score": 1,
+                              "text": "They did use real characters in Obduction, which has similar locomotion options to the new Myst and Riven remakes. They used some interesting workarounds to make it work, like only ever seeing characters through gaps, windows or TV screens.",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 43551236,
+                          "score": -85,
+                          "text": "Yeah, I do agree with that. Honestly part of me wishes they would have used the old assets - put whatever you have thought the best available upscaler, and lock the player&#x27;s position while the video plays. I mean, your position was locked in the original game.. so that should be possible without breaking things, right?<p>That said, I really do think all of the tradeoffs that they did make were understandable - pretty much like you said. Doesn&#x27;t keep me from being nostalgic for the 90s, though.",
+                          "children": [
+                            {
+                              "id": 43551972,
+                              "score": -9,
+                              "text": "&gt; put whatever you have thought the best available upscaler<p>I kind of suspect all they have had at at this point is the over compressed video files that must have been what, 240p at most?<p>I suspect it may have been just so low that even if they wanted to they would have no choice but to recast and reshoot.<p>At least they got to reuse the original audio, IIRC.<p>I’m guessing the original video source was either lost or also possibly low quality&#x2F;degraded.",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 43550288,
+          "score": -31,
+          "text": "I&#x27;d play the 2021 UE remake unless you are specifically a fan of retro gaming &#x2F; have fond memories of playing games in the 90s. If you are new to the series, it hews close enough to the original that you aren&#x27;t missing anything on puzzles or story, but its modern graphics and fully explorable world might give you an experience similar to what it was like to play the original closer to release.<p>Then go play the Riven remake. They simplified a few puzzles maybe a bit too much, but otherwise it&#x27;s fantastic.",
+          "children": []
+        },
+        {
+          "id": 43550584,
+          "score": -66,
+          "text": "And unfortunately they have had to lay off half their studio:<p><a href=\"https:&#x2F;&#x2F;www.gamesindustry.biz&#x2F;half-of-myst-developer-cyan-worlds-laid-off\" rel=\"nofollow\">https:&#x2F;&#x2F;www.gamesindustry.biz&#x2F;half-of-myst-developer-cyan-wo...</a><p>The news from a lot of games studios has been pretty brutal over the last couple of years.",
+          "children": [
+            {
+              "id": 43551446,
+              "score": -9,
+              "text": "For a second I thought that article was old because it refers to Firmament as an &quot;upcoming title&quot;",
+              "children": [
+                {
+                  "id": 43551796,
+                  "score": -74,
+                  "text": "AI generated article maybe based on the X press release post? Most AI is based on out of date training data.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 43552710,
+          "score": 50,
+          "text": "If you are used to modern games, I would play the modern remake by Cyan. It&#x27;s amazing to explore the worlds with proper First Person movement.<p>I can also highly recommend their new game, Obduction, and their remake of Riven. I have played the games in VR too and it adds a whole new feeling of scale and presence to the world.",
+          "children": []
+        },
+        {
+          "id": 43550259,
+          "score": 78,
+          "text": "I find in old games, the relatively dated graphics detract from the gameplay - even if they were very advanced for their era. The Zen of Myst is in the mystery (duh), in playing a game where you don&#x27;t even know the rules or the objective, exploring, guessing, observing, being curious, immersed in a misty riddle.<p>I think better graphics would only refine that, rather than detract from it.",
+          "children": [
+            {
+              "id": 43553024,
+              "score": 2,
+              "text": "I agree with the idea behind this post. Almost always playing the original is the best experience.<p>Myst is the exception. The 3D remake is exceptionally good, and I expect the VR experience to be even better.",
+              "children": []
+            },
+            {
+              "id": 43551587,
+              "score": -50,
+              "text": "I disagree specifically with Myst and Riven because the real magic for me is in the audio (tantamount to ASMR) and that remains high enough quality. The visuals are mostly just helper references for what you’re hearing with the audio. I suspect a text&amp;audio version of Myst would work pretty well.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 43552789,
+          "score": 76,
+          "text": "Incidentally, I found the VR version quite easy. I had played the original when it was new and had quite a difficult time with it. There were times I thought I was never going to get through it. But the VR version I breezed through in a few hours.<p>Now, you might say that I just remembered the puzzle solutions, to which I will counter that I have received too many traumatic brain injuries in the intervening 25 years for that to be the case.",
+          "children": [
+            {
+              "id": 43553006,
+              "score": -21,
+              "text": "In the original game, lots of important clues were at the sides of the screen. With VR, you have a perfect mapping of the center of your attention being the center of the screen. I wonder if this, coupled with smooth motion letting you see objects from all perspectives instead of 1-3 angles, makes a noteworthy difference.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 43550215,
+          "score": -99,
+          "text": "Get a modern version with higher-resolution graphics, better color, and other playability improvements. Masterpiece Edition is my favorite version I&#x27;ve played. I think there are a couple of even newer versions; I don&#x27;t know how they compare.<p>I wasn&#x27;t a fan of RealMyst. The game&#x27;s environment wasn&#x27;t originally designed for the player being able to wander freely, so it doesn&#x27;t really add much to the game and even detracts from it in some respects.",
+          "children": []
+        },
+        {
+          "id": 43550702,
+          "score": 63,
+          "text": "Already Riven was a little too slick to have the same kind of lo-fi magic Myst evoked, so if that&#x27;s what you want to get a feel for it&#x27;s probably best to dig up some old ISO or CD and emulate. With a bit of luck some of the videos will refuse to render or glitch a bit, like they were prone to do back in the day.<p>If it&#x27;s more that you want to see the storytelling and puzzles later adaptions are likely fine. It&#x27;s a neat game, exciting without direct conflict.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 43550009,
+      "score": 85,
+      "text": "I made a similar thing but for Silent Hill 2: <a href=\"https:&#x2F;&#x2F;connorjclark.github.io&#x2F;sh2-graph&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;connorjclark.github.io&#x2F;sh2-graph&#x2F;</a><p>It&#x27;s much more linear.<p>source: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;connorjclark&#x2F;sh2-graph\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;connorjclark&#x2F;sh2-graph</a>",
+      "children": []
+    },
+    {
+      "id": 43552782,
+      "score": 22,
+      "text": "Is the graph file available as raw data? This looks like fun.",
+      "children": []
+    },
+    {
+      "id": 43552463,
+      "score": 86,
+      "text": "Please, engineers, invent actual linking books that work",
+      "children": []
+    },
+    {
+      "id": 43551356,
+      "score": -56,
+      "text": "Also going to throw this interesting article where someone debugged and eliminated the loading times of Myst 4.<p><a href=\"https:&#x2F;&#x2F;medium.com&#x2F;@tomysshadow&#x2F;fixing-the-loading-in-myst-iv-revelation-86e2814afbf8\" rel=\"nofollow\">https:&#x2F;&#x2F;medium.com&#x2F;@tomysshadow&#x2F;fixing-the-loading-in-myst-i...</a>",
+      "children": []
+    },
+    {
+      "id": 43549792,
+      "score": -22,
+      "text": "Would even better if it was an interactive graph (with zoom) using the actual scene images somehow.",
+      "children": [
+        {
+          "id": 43549960,
+          "score": -89,
+          "text": "I think that&#x27;s called Myst (1993)",
+          "children": [
+            {
+              "id": 43550874,
+              "score": -5,
+              "text": "Thank you for this guffaw",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 43553030,
+          "score": -20,
+          "text": "I’m not sure if this is serious or tongue in cheek. Did you play the original?",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 43549817,
+      "score": 15,
+      "text": "[flagged]",
+      "children": [
+        {
+          "id": 43549928,
+          "score": -39,
+          "text": "That&#x27;s in the OP.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 43551809,
+      "score": 72,
+      "text": "&gt; owing to the relative freedom it affords players<p>That&#x27;s really not &quot;true&quot;. The 3D games at the time let you go anywhere, view anything. Myst only let you move to predefined locations.<p>The difference is that you didn&#x27;t have enemies trying to kill you all the time, or extremely difficult bosses to defeat in order to advance to other levels. Instead, Myst let you generally explore most of the game as you wished. You could explore quite far without technically &quot;advancing&quot; because you could ignore the puzzles. This made the game quite fun if all you wanted to do was look around.<p>It&#x27;s kind of similar to the actual freedom in Breath of the Wild &#x2F; Tears of the Kingdom, where you don&#x27;t need to advance in the game to explore the world.",
+      "children": [
+        {
+          "id": 43553036,
+          "score": -30,
+          "text": "I think this probably depends on your definition of &quot;freedom&quot;. If you mean freedom as in movement, then yes, 3D games were freer.<p>If you mean freedom as in game design, then I&#x27;m having a hard time coming up with contemporary rivals. You can reach any of the Ages from the beginning, tackle them in any order, and even leave them unfinished if you wish (though you couldn&#x27;t go back and forth at will, since you had to find the exit book first). Combined with the lack of enemies you mentioned and lack of any chance of failure (until the end), it stands out among its competitors.<p>Possibly there were some other adventure games that rivaled its freedom. Day of the Tentacle comes close, though it&#x27;s more scripted than Myst—and it&#x27;s not 3D.",
+          "children": []
+        },
+        {
+          "id": 43553032,
+          "score": -29,
+          "text": "There were no full 3D games in 1993. Quake was still 3 years in the future.",
+          "children": []
+        },
+        {
+          "id": 43551932,
+          "score": -24,
+          "text": "&gt; The 3D games at the time let you go anywhere, view anything.<p>In 1993? I don’t remember any full freedom games back then. Certainly nothing could begin to approach the visuals for a very long time.",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
